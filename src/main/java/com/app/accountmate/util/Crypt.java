@@ -15,7 +15,7 @@ import java.security.SecureRandom;
 public class Crypt {
      
     public static void main(String[] args) throws NoSuchAlgorithmException {
-        String passwordToHash = "Anita@123";//Provide password for UNIT test
+        String passwordToHash = "xyz@123";//Provide password for UNIT test
         String salt = "[B@1e482627}";//getSalt();
          
         String securePassword = get_SHA_1_SecurePassword(passwordToHash, salt);
